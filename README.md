@@ -1,6 +1,6 @@
 # Flight Booking App
 
-This project is a React application that displays flight booking information. It uses Tailwind CSS for styling and React Icons for icons. The project is configured with TypeScript and includes unit tests written with Jest. The project is deployed to GitHub Pages using a CI/CD pipeline configured with GitHub Actions.
+This project is a React application that displays flight booking information. It uses Tailwind CSS for styling and React Icons for icons. The project is configured with TypeScript . The project is deployed to GitHub Pages using a CI/CD pipeline configured with GitHub Actions.
 
 ## Table of Contents
 
@@ -30,7 +30,7 @@ This project is a React application that displays flight booking information. It
 - **Tailwind CSS**: A utility-first CSS framework.
 - **React Icons**: Popular icons as React components.
 - **TypeScript**: A strongly typed programming language that builds on JavaScript.
-- **GitHub Actions**: Automate workflows, including build, test, and deployment.
+- **GitHub Actions**: Automate workflows, including build, and deployment.
 
 ## Getting Started
 
@@ -60,5 +60,5 @@ Ensure you have the following installed on your local development environment:
 
 ```sh
  npm start
- 
+
 ```
