@@ -5,11 +5,11 @@ import airlineImg from '../assets/Airline.jpg'
 import FlightStop from "./FlightStop";
 import { FaExclamationCircle } from "react-icons/fa";
 
-const DepartureInfo = ({ flightStop = false ,DepartureText="" }) => {
+const DepartureInfo = ({ flightStop = false ,DepartureText="",terminalName="" , terminalNumber=0 }) => {
   return (
     <div>
       {" "}
-      <DepartureSegment DepartureText={DepartureText} />
+      <DepartureSegment DepartureText={DepartureText} terminalName={terminalName} terminalNumber={terminalNumber}  />
         {/* <IoLocationSharp className="inline text-gray-400  text-2xl ml-2  " /> */}
       <div className="flex">
         <div className="flex flex-col items-center">

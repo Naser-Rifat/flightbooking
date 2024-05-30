@@ -3,10 +3,10 @@ import { BsDot } from "react-icons/bs"
 
 const FlightHead = () => {
   return (
-    <div className="p-2 md:p-3 ">
+    <div className="px-5 py-3  ">
         <div className="flex justify-between items-center">
-          <div className="flex items-center  gap-3">
-            <div className="w-5 h-5 flex justify-center items-center text-xs font-medium  rounded-full bg-blue-500 text-white">
+          <div className="flex items-center  gap-5">
+            <div className="w-6 h-6 flex justify-center items-center text-xs font-medium  rounded-full bg-blue-500 text-white">
               1
             </div>
             <div>
