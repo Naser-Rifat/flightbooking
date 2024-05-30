@@ -1,7 +1,7 @@
 
 import Breadcrumb from '../components/breadCrumb'
 import './App.css'
-import FlightDetails from './components/FlightDetails'
+import FlightDetails from './pages/home'
 
 function App() {
 

@@ -8,6 +8,7 @@ export interface FlightSegmentProps {
     aircraft?: string;
     travelClass?: string;
     airlinesName?:string;
+    totalFlightTime?: string;
   }
   interface MySvgIconProps {
     className?: string;

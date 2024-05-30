@@ -1,6 +1,6 @@
-import DepartureSegment from "./DepartureSegment";
-import FlightHead from "./FlightHead";
-import DepartureInfo from "./DepartureInfo";
+import DepartureSegment from "./components/DepartureSegment";
+import FlightHead from "./components/FlightHead";
+import DepartureInfo from "./components/DepartureInfo";
 
 const FlightDetails = () => {
   return (
