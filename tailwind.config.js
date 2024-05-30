@@ -1,11 +1,10 @@
-import type { Config } from "tailwindcss";
-
-const config: Config = {
+/** @type {import('tailwindcss').Config} */
+export default {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
+ 
   theme: {
     extend: {
       container: {
@@ -20,12 +19,10 @@ const config: Config = {
           lg: "1024px",
           xl: "1232px",
         },
-        padding: {
-          DEFAULT: "1rem",
-          xl: "0rem",
-        },
+      }, 
+      colors:{
+        grayLight: '#F5F7FA',
       },
-     
 
       screens: {
         xsm: "320px",
@@ -45,5 +42,4 @@ const config: Config = {
     },
   },
   plugins: [],
-};
-export default config;
+}
