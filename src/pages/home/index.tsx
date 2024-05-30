@@ -15,7 +15,7 @@ const FlightDetails = () => {
          
         <DepartureInfo DepartureText={"Layover at Dubai: 12 hr 20 min "} terminalName="Dubai International Airport"/>
 
-        <DepartureSegment DepartureText="Destination at New York" terminalName=" John F Kennedy International Airport" terminalNumber={4}/>
+        <DepartureSegment lastDepartureSegment={true} DepartureText="Destination at New York" terminalName=" John F Kennedy International Airport" terminalNumber={4}/>
       </div>
     </div>
   );
